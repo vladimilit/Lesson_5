@@ -1,0 +1,97 @@
+body {
+  font-family: "CircularStd", sans-serif;
+  font-size: 14px;
+}
+
+div h2 {
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: center;
+  color: green;
+  padding: 10px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px green;
+}
+
+a {
+  color: red;
+}
+
+.uk-title {
+  text-align: center;
+  margin: 10px;
+}
+
+.hello {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mova {
+  font-family: "Lato";
+  padding: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 2px green;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.navigation {
+  font-family: "Poiret", sans-serif;
+  border: 2px solid #000;
+  padding: 25px;
+  max-width: 700px;
+  margin: 0 0 40px 0;
+}
+
+.navigation__listol {
+  font-family: "Poiret", sans-serif;
+  color: red;
+}
+
+.navigation .navigation__listol ul {
+  color: blue;
+}
+
+.blockline {
+  background-color: rgba(227, 237, 223, 0.528);
+  margin: 0 0 40px 0;
+  border: 2px solid #000;
+  padding: 20px;
+}
+
+.blockline span {
+  font-family: "CircularStd";
+  font-weight: 900;
+}
+
+.movatext {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.hello + p {
+  font-family: CircularStd;
+  font-style: italic;
+  text-shadow: 2px 2px 2px green;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+#vagluvo > p {
+  font-family: "Larsseit";
+  font-weight: 400;
+}
+
+.text {
+  text-align: center;
+  margin: 20px;
+}
+
+.text ~ p {
+  text-transform: uppercase;
+  text-align: justify;
+  line-height: 1.5;
+}
